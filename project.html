@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+    <head>
+        <title>image club</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <style>
+            .navbar {
+                position: relative;
+                display: flex;
+
+            }
+            .navigation {
+                background-color: #eee;
+                position: sticky; 
+                z-index: 1;
+            }
+            .navbar-nav {
+                text-transform: uppercase;
+                font-size: 14px;
+                color: #232323;
+            }
+            .nav-item {
+                padding-right: 35px;
+            }
+            .btn-nav {
+                font-size: 14px;
+                text-transform: uppercase;
+                background: #001E3C;
+            }
+            .btn-nav:hover { background-color: #E9204F;}
+            .btn {
+                display: inline-block;
+                text-align: center;
+                border-radius: 50px;
+                padding: 10px 30px 10px 30px;
+            }
+            .btn-main {
+                background: #E9204F;
+                color: #fff;
+                border-color: #E9204F;
+            }
+            .btn-main:hover { background-color: #001E3C; color: #eee; border-color: #001E3C;}
+            .banner {
+                background-image: url(sayambar.jpg);
+                padding: 140px 0 140px 0;
+                color: aliceblue;
+            }
+            .container {
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                /* background-color: bisque; */
+            }
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+            .row1 {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            body {
+                font-family: "Muli", sans-serif;
+            }
+            .feature-block {
+                text-align: center;
+            }
+            .feature-block img {
+                margin-bottom: 25px;
+                text-align: center;
+                border-radius: 50%;
+                border-bottom: 5px solid #E9204F;
+                box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+            }
+            h2,h4 {
+                font-size: 22px;
+                font-family: "Montserrat", sans-serif;
+                color: #232323;
+            }
+            h2 {
+                font-size: 38px;
+            }
+            p {
+                color: #7B7B7B;
+            }
+            .text-color {
+                color: #E9204F;
+            }
+            .intro-content h2 {
+                font-weight: 800;
+            }
+            .intro-block {
+                text-align: center;
+                background: white;
+                padding: 20px;
+                position: relative;
+            }
+            .intro-block:hover { background-color: #001E3C; color: #eee; }
+            .img-fluid {
+                max-width: auto;
+                height: auto;
+            }
+            .form-control {
+                display: block;
+                border: 1px solid rgba(0, 0, 0, 0.08);
+            }
+            .form-control::placeholder { color: #6c757d; opacity: 1;}
+            .list-group {
+                display: flex;
+                flex-direction: column;
+            }
+            .box {
+                padding:20px 10px 20px 10px; 
+                text-align: center; 
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            }
+            .box:hover { background-color: #001E3C; color: #fff; }
+        </style>
+    </head>
+    <body>
+        <div class="navigation fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand">IMAGE CLUB</a>
+                    <!-- <div class="container-fluid"> -->
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PAGES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-nav" style="color: #eee">+ 23 456 6735</button>
+                    <!-- </div> -->
+                </nav>
+            </div>
+        </div>
+               
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+
+                        <h5>WANT TO BE FIT WITH</h5>
+                        <h1>CONSULTATION!</h1><br>
+                        <h5 style="font-family: times">Powerful Fitness solution Sint atque quidem quaas fugit quaaerat nisi consequatur
+                            rescusandae suscipit dignissimos dolar illo,cupiditate soluta vel.
+                        </h5><br>
+                        <button type="button" class="btn btn-main">JOIN WITH US </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center" style="padding: 50px;">
+                <div class="col-lg-6">
+                    <div class="heading text-center">
+                        <h2>About Us.</h2>
+                        <p>
+                            We believe in healthy and fit consectetur adipisicing elit.
+                                Enim beatae odio cupiditate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <!-- <img src="sayambar.jpg"> -->
+                    <div class="feature-block mb-5 mb-lg-0">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <h4>Certified Trainer</h4>
+                        <p style="font-size: 12px;">
+                            Sevhbke kwneflk rkejgng opwkrp poqkr opqk powkfwo,ofi fj kekfw lkwef klnwf
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="feature-block mb-5 mb-lg-0">
+                        <img class="img-fluid image" src="sayambar.jpg"> 
+                        <h4>Personal Training</h4>
+                        <p style="font-size: 12px;">
+                            Sevhbke kwneflk rkejgng opwkrp poqkr opqk powkfwo,ofi fj kekfw lkwef klnwf
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="feature-block mb-5 mb-lg-0">
+                        <img class="img-fluid image" src="sayambar.jpg">
+                        <h4>Modern Equipment</h4>
+                        <p style="font-size: 12px;">
+                            Sevhbke kwneflk rkejgng opwkrp poqkr opqk powkfwo,ofi fj kekfw lkwef klnwf
+                        </p>
+                    </div>
+                </div>       
+            </div>
+        </div>
+
+        <div style="background-color: #f7f7f7;">
+            <div class="container" style="padding: 100px 0 100px 0">
+                <div class="row aligns-items-center" style="padding: 100px 0 100px 0">
+                    <div class="col-lg-6">
+                        <img style="box-shadow: -25px 25px #E9204F;" class="img-fluid" src="sayambar.jpg" >
+                    </div>
+                    <div class="col-lg-5 ml-lg-5">
+                        <div class="intro-content mt-5 mt-lg-0">
+                            <span class="font-weight-bold text-uppercase font-sm letter-spacing">HEALTH IS WEALTH</span>
+                        </div>
+        
+                        <h2>Why 
+                            <span class="text-color">Gyming</span> Is Good For
+                            <span class="text-color">Health?</span> 
+                        </h2>
+                        <p style="font-size: 15px;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, eos. Ducimus facilis molestiae labore veritatis quas!
+                        </p>
+                        <p style="font-size: 12px;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis enim tempora, nemo minima tenetur voluptatem fugit unde placeat dicta omnis libero dolorem modi culpa a repudiandae quae quas aspernatur incidunt cumque? Molestiae, quis sit?
+                        </p>
+                        <button type="button" class="btn btn-main">GET STARTED </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="intro-block mb-4 mb-lg-0">
+                            <div style="padding: 20px;">
+                                <i class="fa fa-facebook" style="font-size: 60px;"></i>                            
+                            </div>
+                            <h3>Workout</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="intro-block mb-4 mb-lg-0">
+                            <div style="padding: 20px;">
+                                <i class="fa fa-instagram" style="font-size: 60px;"></i>                            
+                            </div>
+                            <h3>Nutrition</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="intro-block mb-4 mb-lg-0">
+                            <div style="padding: 20px;">
+                                <i class="fa fa-telegram" style="font-size: 60px;"></i>                            
+                            </div>
+                            <h3>Confidence</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="intro-block mb-4 mb-lg-0">
+                            <div style="padding: 20px;">
+                                <i class="fa fa-youtube" style="font-size: 60px;"></i>                            
+                            </div>                            <h3>Fitness</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="padding: 100px 0 100px 0">
+                <div class="row justify-content-center" style="padding: 50px;">
+                    <div class="col-lg-6">
+                        <div class="heading text-center">
+                            <h3>Our Services.</h3>
+                            <p>
+                                We believe in healthy and fit consectetur adipisicing elit.
+                                    Enim beatae odio cupiditate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div style="margin-bottom: 25px;">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div class="text-center" style="padding: 25px;">
+                            <h4>Consultation</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div style="margin-bottom: 25px;">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div class="text-center" style="padding: 25px;">
+                            <h4>Consultation</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div style="margin-bottom: 25px;">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div class="text-center" style="padding: 25px;">
+                            <h4>Consultation</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div style="margin-bottom: 25px;">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div class="text-center" style="padding: 25px;">
+                            <h4>Consultation</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div style="margin-bottom: 25px;">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div class="text-center" style="padding: 25px;">
+                            <h4>Consultation</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div style="margin-bottom: 25px;">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div class="text-center" style="padding: 25px;">
+                            <h4>Consultation</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #f7f7f7; padding: 50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7" style="background-color: #fff;">
+                        <div style="padding:60px">
+                            <h3>Calculate Your BMI</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                            <form style="margin-top: 50px;" action="#">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div style="padding: 2px;">
+                                            <input class="form-control" type="text" placeholder="Height/cm">
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-lg-6">
+                                        <div style="padding: 2px;">
+                                            <input class="form-control" type="text" placeholder="Weight/kg">
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-lg-6">
+                                        <div style="padding: 2px;">
+                                            <input class="form-control" type="text" placeholder="Age">
+                                        </div>
+                                    </div>
+                               
+                                    <div class="col-lg-6">
+                                        <div style="padding: 2px;">
+                                            <input class="form-control" type="text" placeholder="Sex">
+                                        </div>
+                                    </div>
+
+                                
+                                    <div class="col-lg-12">
+                                        <div> 
+                                            <button type="button" class="btn btn-main">CALCULATE </button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div style="padding-left: 40px;">
+                            <h3>BMI Calculator Chart</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex align-items-center justify-content-between">
+                                    <h6>BMI</h6>
+                                    <h6>Weight Status</h6>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center justify-content-between">
+                                    18.5-24.9
+                                    <span>Healthy</span>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center justify-content-between">
+                                    25.0-29.9
+                                    <span>overweight</span>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center justify-content-between">
+                                    30.0-and above
+                                    <span>Obese</span>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center justify-content-between">
+                                    Below 18.5
+                                    <span>Underweight</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center" style="padding: 50px;">
+                <div class="col-lg-6">
+                    <div class="heading text-center">
+                        <h3>Gallery.</h3>
+                        <p>
+                            We believe in healthy and fit consectetur adipisicing elit.
+                                Enim beatae odio cupiditate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row1">
+                <div class="col-lg-3">
+                    <div style="border: 2px solid #fff">
+                        <img class="img-fluid" src="sayambar.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div style="border: 2px solid #fff">
+                        <img class="img-fluid" src="sayambar.jpg">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border: 2px solid #fff">
+                        <img class="img-fluid" src="sayambar.jpg">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border: 2px solid #fff">
+                        <img class="img-fluid" src="sayambar.jpg">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border: 2px solid #fff">
+                        <img class="img-fluid" src="sayambar.jpg">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border: 2px solid #fff">
+                        <img class="img-fluid" src="sayambar.jpg">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border: 2px solid #fff">
+                        <img class="img-fluid" src="sayambar.jpg">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border: 2px solid #fff">
+                        <img class="img-fluid" src="sayambar.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center" style="padding: 50px;">
+                <div class="col-lg-6">
+                    <div class="heading text-center">
+                        <h3>Expert Trainer.</h3>
+                        <p>
+                            We believe in healthy and fit consectetur adipisicing elit.
+                                Enim beatae odio cupiditate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div style="padding: 20px">
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div>
+                            <h5>Bruce lee</h5>
+                            <p>Consultatent</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam a repudiandae saepe.</p>
+                        
+                            <div style="padding: 20px;">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div style="padding: 20px">
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div>
+                            <h5>Bruce lee</h5>
+                            <p>Consultatent</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam a repudiandae saepe.</p>
+                        
+                            <div style="padding: 20px;">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div style="padding: 20px">
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div>
+                            <h5>Bruce lee</h5>
+                            <p>Consultatent</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam a repudiandae saepe.</p>
+                        
+                            <div style="padding: 20px;">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="padding: 40px;">
+            <div class="container">
+                <div class="row" style="background-color: #001E3C; padding: 20px;">
+                    <div class="col-lg-8">
+                        <div>
+                            <h2 style="color: #fff;">Admission to get 50% off</h2>
+                            <p>Get admitted to grab the oppurtunity to get 50% off in any courses</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div class="text-lg-right">
+                            <button type="button" class="btn btn-main">CONTACT NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        
+        <div style="background-color: #001E3C; padding: 40px;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="text-center">
+                        <p style="color: #fff;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ducimus eum reprehenderit eius! Molestiae mollitia distinctio quaerat quos magni? Sequi.
+                        </p>
+                    </div>
+                    <!-- <div>
+                        <img class="img-fluid" src="sayambar.jpg">
+                    </div> -->
+                    <div class="text-center">
+                        <h4 style="color: #fff;">Jesicca Gomez</h4>
+                        <p style="color: #fff;">CEO, Founder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center" style="padding: 50px;">
+                <div class="col-lg-6">
+                    <div class="heading text-center">
+                        <h3>Pricing Plan.</h3>
+                        <p>
+                            We believe in healthy and fit consectetur adipisicing elit.
+                                Enim beatae odio cupiditate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6" style="border-radius: 0%;">
+                        <div class="box">
+                            <div>
+                                <h4>Free</h4>
+                            </div>
+                            <div>
+                                <ul style="list-style: none; padding: 30px 0;">
+                                    <li>Get Free WiFi</li>
+                                    <li>No Time Restriction</li>
+                                    <li>Month to Month</li>
+                                    <li>Free Consultation</li>
+                                </ul>
+                                <h3>$49<span>/mo</span></h3>
+                                <button type="button" class="btn btn-main">ENROLL NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div>
+                                <h4>Free</h4>
+                            </div>
+                            <div>
+                                <ul style="list-style: none; padding: 30px 0;">
+                                    <li>Get Free WiFi</li>
+                                    <li>No Time Restriction</li>
+                                    <li>Month to Month</li>
+                                    <li>Free Consultation</li>
+                                </ul>
+                                <h3>$49<span>/mo</span></h3>
+                                <button type="button" class="btn btn-main">ENROLL NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div>
+                                <h4>Free</h4>
+                            </div>
+                            <div>
+                                <ul style="list-style: none; padding: 30px 0;">
+                                    <li>Get Free WiFi</li>
+                                    <li>No Time Restriction</li>
+                                    <li>Month to Month</li>
+                                    <li>Free Consultation</li>
+                                </ul>
+                                <h3>$49<span>/mo</span></h3>
+                                <button type="button" class="btn btn-main">ENROLL NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div>
+                                <h4>Free</h4>
+                            </div>
+                            <div>
+                                <ul style="list-style: none; padding: 30px 0;">
+                                    <li>Get Free WiFi</li>
+                                    <li>No Time Restriction</li>
+                                    <li>Month to Month</li>
+                                    <li>Free Consultation</li>
+                                </ul>
+                                <h3>$49<span>/mo</span></h3>
+                                <button type="button" class="btn btn-main">ENROLL NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center" style="padding: 50px;">
+                <div class="col-lg-6">
+                    <div class="heading text-center">
+                        <h3>Contact.</h3>
+                        <p>
+                            We believe in healthy and fit consectetur adipisicing elit.
+                                Enim beatae odio cupiditate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+
+                </div>
+                <div class="col-lg-7">
+                    <form action="#">
+                        <div class="col-lg-6">
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label>Your Name (required)</label>
+                                <input id="name" type="text" placeholder="Enter Your Name">
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label>Your Email(required)</label>
+                                <input id="name" class="form-control" type="text" placeholder="Enter Your Email Address"></input>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label style="display: inline-block;">Your Subject</label>
+                                <input id="name" type="text" placeholder="Enter Your Subject"></input>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label>Your Message(required)</label>
+                                <textarea id="name" type="text" placeholder="Your Message" cols="30" rows="8"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-main">SEND MESSAGE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #f7f7f7;">
+            <div class="container">
+                <div class="row justify-content-center" style="padding: 50px;">
+                    <div class="col-lg-6">
+                        <div class="heading text-center">
+                            <h3>Blog News.</h3>
+                            <p>
+                                We believe in healthy and fit consectetur adipisicing elit.
+                                Enim beatae odio cupiditate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div>
+                            BY JOHN SMITH
+                            <span>JUNE 17,2019</span>
+                        </div>
+                        <h4>How To Manage A Healthy Diet Plan</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam reprehenderit veritatis, dignissimos temporibus sit.</p>
+                        <a href="#" style="color: red;">
+                            Read More
+                        </a>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div>
+                            BY JOHN SMITH
+                            <span>JUNE 17,2019</span>
+                        </div>
+                        <h4>How To Manage A Healthy Diet Plan</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam reprehenderit veritatis, dignissimos temporibus sit.</p>
+                        <a href="#" style="color: red;">
+                            Read More
+                        </a>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div>
+                            <img class="img-fluid" src="sayambar.jpg">
+                        </div>
+                        <div>
+                            BY JOHN SMITH
+                            <span>JUNE 17,2019</span>
+                        </div>
+                        <h4>How To Manage A Healthy Diet Plan</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam reprehenderit veritatis, dignissimos temporibus sit.</p>
+                        <a href="#" style="color: red;">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                
+                
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div>
+                            <p>EMAIL ADDRESS</p>
+                            <h4>info@yourdomain.com</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div>
+                            <p>QUICK CONTENT</p>
+                            <h4>1(68)345 5902</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div>
+                            <p>MAP LOCATION</p>
+                            <h4>Moon Street Light Avenue,14/05</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div style="padding:100px 0px 50px 0px; background-color: #232323;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <p class="text-center">
+
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque voluptatem pariatur recusandae asperiores atque consectetur officiis fuga possimus impedit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
