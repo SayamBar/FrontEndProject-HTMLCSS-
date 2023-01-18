@@ -80,7 +80,13 @@
                 border-bottom: 5px solid #E9204F;
                 box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
             }
-            h2,h4 {
+            .feature-block1 img {
+                margin-bottom: 25px;
+                text-align: center;
+                border-radius: 50%;
+                box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+            }
+            h2,h3,h4 {
                 font-size: 22px;
                 font-family: "Montserrat", sans-serif;
                 color: #232323;
@@ -103,10 +109,22 @@
                 padding: 20px;
                 position: relative;
             }
-            .intro-block:hover { background-color: #001E3C; color: #eee; }
+            .intro-block:hover { background-color: #001E3C; color: #eee; h3 {color: #fff;}}
             .img-fluid {
-                max-width: auto;
+                width: 500px;
+                height: 500px;
+            }
+            .img-fluid1 {
+                width: 400px;
+                height: 400px;
+            }
+            .img-fluid2 {
+                max-width: 100%;
                 height: auto;
+            }
+            .img-fluid3 {
+                width: 200px;
+                height: 200px;
             }
             .form-control {
                 display: block;
@@ -123,6 +141,14 @@
                 box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
             }
             .box:hover { background-color: #001E3C; color: #fff; }
+            @media (max-width: 400px) {
+                .banner h1 { font-size: 28px;}
+                .banner h5 { font-size: 15px;}
+                p { font-size: 14px;}
+                .about img { height: 300px;}
+                h3 { font-size: 22px;}
+                .form1 { font-size: 16px;}
+            }
         </style>
     </head>
     <body>
@@ -191,7 +217,7 @@
                     <!-- <img src="sayambar.jpg"> -->
                     <div class="feature-block mb-5 mb-lg-0">
                         <div>
-                            <img class="img-fluid" src="sayambar.jpg">
+                            <img class="" src="sayambar.jpg" height="400" width="400">
                         </div>
                         <h4>Certified Trainer</h4>
                         <p style="font-size: 12px;">
@@ -201,7 +227,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="feature-block mb-5 mb-lg-0">
-                        <img class="img-fluid image" src="sayambar.jpg"> 
+                        <img class="" src="sayambar.jpg" height="400" width="400"> 
                         <h4>Personal Training</h4>
                         <p style="font-size: 12px;">
                             Sevhbke kwneflk rkejgng opwkrp poqkr opqk powkfwo,ofi fj kekfw lkwef klnwf
@@ -210,7 +236,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="feature-block mb-5 mb-lg-0">
-                        <img class="img-fluid image" src="sayambar.jpg">
+                        <img class="" src="sayambar.jpg" height="400" width="400">
                         <h4>Modern Equipment</h4>
                         <p style="font-size: 12px;">
                             Sevhbke kwneflk rkejgng opwkrp poqkr opqk powkfwo,ofi fj kekfw lkwef klnwf
@@ -220,13 +246,13 @@
             </div>
         </div>
 
-        <div style="background-color: #f7f7f7;">
+        <div class="about" style="background-color: #f7f7f7;">
             <div class="container" style="padding: 100px 0 100px 0">
-                <div class="row aligns-items-center" style="padding: 100px 0 100px 0">
-                    <div class="col-lg-6">
+                <div class="row aligns-items-center">
+                    <div class="col-lg-6" style="padding: 0 30px 0 30px;">
                         <img style="box-shadow: -25px 25px #E9204F;" class="img-fluid" src="sayambar.jpg" >
                     </div>
-                    <div class="col-lg-5 ml-lg-5">
+                    <div class="col-lg-5 ml-lg-5" style="padding: 100px 30px 100px 30px">
                         <div class="intro-content mt-5 mt-lg-0">
                             <span class="font-weight-bold text-uppercase font-sm letter-spacing">HEALTH IS WEALTH</span>
                         </div>
@@ -244,7 +270,7 @@
                         <button type="button" class="btn btn-main">GET STARTED </button>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" style="padding: 100px 30px 100px 30px">
                     <div class="col-lg-3 col-md-6">
                         <div class="intro-block mb-4 mb-lg-0">
                             <div style="padding: 20px;">
@@ -292,7 +318,7 @@
             </div>
         </div>
 
-        <div class="container" style="padding: 100px 0 100px 0">
+        <div class="container" style="padding: 100px 30px 100px 30px">
                 <div class="row justify-content-center" style="padding: 50px;">
                     <div class="col-lg-6">
                         <div class="heading text-center">
@@ -306,9 +332,9 @@
                 </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div style="margin-bottom: 25px;">
+                    <div style="margin-bottom: 25px; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
                         <div>
-                            <img class="img-fluid" src="sayambar.jpg">
+                            <img class="img-fluid2" src="sayambar.jpg">
                         </div>
                         <div class="text-center" style="padding: 25px;">
                             <h4>Consultation</h4>
@@ -320,9 +346,9 @@
                 </div>
                 
                 <div class="col-lg-4 col-md-6">
-                    <div style="margin-bottom: 25px;">
+                    <div style="margin-bottom: 25px; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
                         <div>
-                            <img class="img-fluid" src="sayambar.jpg">
+                            <img class="img-fluid2" src="sayambar.jpg">
                         </div>
                         <div class="text-center" style="padding: 25px;">
                             <h4>Consultation</h4>
@@ -334,9 +360,24 @@
                 </div>
                 
                 <div class="col-lg-4 col-md-6">
-                    <div style="margin-bottom: 25px;">
+                    <div style="margin-bottom: 25px; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
                         <div>
-                            <img class="img-fluid" src="sayambar.jpg">
+                            <img class="img-fluid2" src="sayambar.jpg">
+                        </div>
+                        
+                        <div class=" col-lg-10 text-center" style="padding: 25px;">
+                            <h4>Consultation</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div style="margin-bottom: 25px; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
+                        <div>
+                            <img class="img-fluid2" src="sayambar.jpg">
                         </div>
                         <div class="text-center" style="padding: 25px;">
                             <h4>Consultation</h4>
@@ -348,9 +389,9 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div style="margin-bottom: 25px;">
+                    <div style="margin-bottom: 25px; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
                         <div>
-                            <img class="img-fluid" src="sayambar.jpg">
+                            <img class="img-fluid2" src="sayambar.jpg">
                         </div>
                         <div class="text-center" style="padding: 25px;">
                             <h4>Consultation</h4>
@@ -362,23 +403,9 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div style="margin-bottom: 25px;">
+                    <div style="margin-bottom: 25px; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
                         <div>
-                            <img class="img-fluid" src="sayambar.jpg">
-                        </div>
-                        <div class="text-center" style="padding: 25px;">
-                            <h4>Consultation</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div style="margin-bottom: 25px;">
-                        <div>
-                            <img class="img-fluid" src="sayambar.jpg">
+                            <img class="img-fluid2" src="sayambar.jpg">
                         </div>
                         <div class="text-center" style="padding: 25px;">
                             <h4>Consultation</h4>
@@ -400,7 +427,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             </p>
-                            <form style="margin-top: 50px;" action="#">
+                            <form class="form1" style="margin-top: 50px;" action="#">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div style="padding: 2px;">
@@ -486,48 +513,48 @@
             <div class="row1">
                 <div class="col-lg-3">
                     <div style="border: 2px solid #fff">
-                        <img class="img-fluid" src="sayambar.jpg">
+                        <img class="img-fluid2" src="sayambar.jpg">
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div style="border: 2px solid #fff">
-                        <img class="img-fluid" src="sayambar.jpg">
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-                    <div style="border: 2px solid #fff">
-                        <img class="img-fluid" src="sayambar.jpg">
+                        <img class="img-fluid2" src="sayambar.jpg">
                     </div>
                 </div>
 
                 <div class="col-lg-3">
                     <div style="border: 2px solid #fff">
-                        <img class="img-fluid" src="sayambar.jpg">
+                        <img class="img-fluid2" src="sayambar.jpg">
                     </div>
                 </div>
 
                 <div class="col-lg-3">
                     <div style="border: 2px solid #fff">
-                        <img class="img-fluid" src="sayambar.jpg">
+                        <img class="img-fluid2" src="sayambar.jpg">
                     </div>
                 </div>
 
                 <div class="col-lg-3">
                     <div style="border: 2px solid #fff">
-                        <img class="img-fluid" src="sayambar.jpg">
+                        <img class="img-fluid2" src="sayambar.jpg">
                     </div>
                 </div>
 
                 <div class="col-lg-3">
                     <div style="border: 2px solid #fff">
-                        <img class="img-fluid" src="sayambar.jpg">
+                        <img class="img-fluid2" src="sayambar.jpg">
                     </div>
                 </div>
 
                 <div class="col-lg-3">
                     <div style="border: 2px solid #fff">
-                        <img class="img-fluid" src="sayambar.jpg">
+                        <img class="img-fluid2" src="sayambar.jpg">
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div style="border: 2px solid #fff">
+                        <img class="img-fluid2" src="sayambar.jpg">
                     </div>
                 </div>
             </div>
@@ -550,11 +577,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="text-center">
-                        <div style="padding: 20px">
-                            <img class="img-fluid" src="sayambar.jpg">
+                    <div class="text-center" style="box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
+                        <div class="feature-block1" style="padding: 20px">
+                            <img class="img-fluid3" src="sayambar.jpg">
                         </div>
-                        <div>
+                        <div style="padding: 20px;">
                             <h5>Bruce lee</h5>
                             <p>Consultatent</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam a repudiandae saepe.</p>
@@ -569,11 +596,11 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="text-center">
-                        <div style="padding: 20px">
-                            <img class="img-fluid" src="sayambar.jpg">
+                    <div class="text-center" style="box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
+                        <div class="feature-block1" style="padding: 20px">
+                            <img class="img-fluid3" src="sayambar.jpg">
                         </div>
-                        <div>
+                        <div style="padding: 20px;">
                             <h5>Bruce lee</h5>
                             <p>Consultatent</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam a repudiandae saepe.</p>
@@ -588,11 +615,11 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="text-center">
-                        <div style="padding: 20px">
-                            <img class="img-fluid" src="sayambar.jpg">
+                    <div class="text-center" style="box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
+                        <div class="feature-block1" style="padding: 20px">
+                            <img class="img-fluid3" src="sayambar.jpg">
                         </div>
-                        <div>
+                        <div style="padding: 20px;">
                             <h5>Bruce lee</h5>
                             <p>Consultatent</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam a repudiandae saepe.</p>
@@ -859,6 +886,11 @@
                 
                 <div class="row">
                     <div class="col-lg-4">
+                        <div style="padding: 20px;">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </div>
                         <div>
                             <p>EMAIL ADDRESS</p>
                             <h4>info@yourdomain.com</h4>
